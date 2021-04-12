@@ -1,0 +1,12 @@
+# Directories
+/.ipynb_checkpoints/
+/__pycache__/
+/Archive/
+/*/__pycache__/
+/ExptData/
+/ExptVoltage/
+/SimData/
+/SimulationsOld/
+
+# Specific file types to ignore (images)
+*.png
