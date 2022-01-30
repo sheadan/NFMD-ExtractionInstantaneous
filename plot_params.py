@@ -2,8 +2,8 @@
 
 # Set plotting parameters
 global_params = {'figure.dpi': 300,
-                 'text.usetex': True,
-                 'text.latex.preamble': r"\usepackage{amsmath}",
+                 #'text.usetex': True,
+                 #'text.latex.preamble': r"\usepackage{amsmath}",
                  'font.family': 'sans-serif',
                  #'font.sans-serif': ["Helvetica"],
                  'savefig.dpi': 300,
