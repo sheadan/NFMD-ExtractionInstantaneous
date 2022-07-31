@@ -117,7 +117,7 @@ class NFMD:
             # Store the results
             self.freqs.append(freqs)
             self.A.append(A)
-            self.losses.append(loss.detach())
+            self.losses.append(loss)
 
             # Set the previous freqs and A variables
             prev_freqs = freqs
@@ -334,6 +334,7 @@ class NFMD:
         # Prepare the results
         A = A.cpu().detach().numpy()
         freqs = freqs.cpu().detach().numpy()
+        loss = loss.cpu().detach().numpy()
 
         return loss, freqs, A
 
